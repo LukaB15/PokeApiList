@@ -1,0 +1,33 @@
+@font-face {
+      font-family: pokefont;
+      src: url(../font/Pokemon\ Classic.ttf);
+    }
+
+@font-face {
+      font-family: pokefont2;
+      src: url(../font/evollite.ttf);
+    }
+    
+h1{
+      color: black;
+      font-family: pokefont2;
+      font-size: 120px;
+      color: white;
+      margin-bottom: 15px;
+
+}
+
+.sous_titre{
+      color: black;
+      font-family: pokefont;
+      padding-top: 25px;
+      padding-bottom: 25px;
+}
+a{
+      text-decoration: none;
+}
+.title_section{
+      background-color: #EF3E33;
+      width: 100%;
+      padding: 0;
+}

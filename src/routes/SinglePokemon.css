@@ -1,0 +1,27 @@
+h2{
+      color: black;
+}
+.pokemon_stat{
+      display: flex;
+      flex-direction: row;
+      color: black;
+}
+.container_single{
+      display: flex;
+      flex-direction: row;
+}
+.test{
+      color:black
+}
+.grass{
+      color: rgb(9, 253, 9);
+}
+.fire{
+      color: yellow;
+}
+.water{
+      color: aqua;
+}
+.undefined{
+      color: black;
+}

@@ -1,0 +1,39 @@
+@font-face {
+      font-family: pokefont;
+      src: url(../font/Pokemon\ Classic.ttf);
+    }
+
+@font-face {
+      font-family: pokefont2;
+      src: url(../font/evollite.ttf);
+    }
+    
+.searchbar{
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: pokefont;
+      margin-bottom: 50px;
+} 
+input.searchbar::placeholder {
+      font-family: pokefont;
+      text-align: center;
+  }
+  input.searchbar{
+      width: 60%;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-top: 15px;
+      
+  }
+  .searchbardiv{
+      background-color: #EF3E33;
+      width: 400px;
+      height: 200px;
+      border-bottom-left-radius: 200px;
+      border-bottom-right-radius: 200px;
+      /* border: 10px solid  ; */
+      border-bottom: 0;
+  }
+
+

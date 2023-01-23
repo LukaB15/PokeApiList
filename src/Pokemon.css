@@ -1,0 +1,113 @@
+@font-face {
+      font-family: pokefont;
+      src: url(../font/Pokemon\ Classic.ttf);
+    }
+
+@font-face {
+      font-family: pokefont2;
+      src: url(../font/evollite.ttf);
+    }
+    
+
+    .container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+.pokemon{
+      font-family: pokefont;
+      /* border: 2px inset black; */
+      border: 10px inset #72706f;
+      border-radius: 25px;
+      width: 90%;
+      max-width: 90%;
+      height: auto;
+      margin: 0;
+      margin-bottom: 15px;
+      margin-top: 25px;
+      margin-left: 25px;
+      margin-right: 25px;
+      transition: ease-in-out 0.5s;
+      background: rgb(90,133,211);
+      background: linear-gradient(360deg, rgba(90,133,211,1) 0%, rgba(132,181,246,1) 49%, rgba(132,181,246,1) 68%, rgba(90,133,211,1) 100%);
+      display: flex;
+      flex-direction: row;
+}
+.pokemon:hover{
+      transform: scale(1.04);
+      transition: ease-in-out 0.5s;
+}
+.image{
+      width: 50%;
+      height: auto;
+}
+.Name{
+      color: white;
+      text-shadow: 5px 2px 0px rgba(0,0,0,0.67);
+      text-transform: uppercase;
+}
+.Name:visited{
+      color: black;
+}
+a{
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.image_poke{
+      overflow: hidden;
+  position: relative;
+}
+.image_sprite{
+      position: absolute;
+      left: 45px;
+      top: 0;
+      /* width: 100%;
+      height: auto; */
+      width: 220px;
+      /* background-image: url(../images/pokeballbck.png);
+      background-size: contain; */
+}
+.pokebck{
+      /* opacity: 0.5; */
+      width: 65%;
+      margin-top: 15px;
+      margin-bottom: 15px;
+}
+h3{
+      /* background-color: #85B6F7;
+      padding-right: 250px; */
+      /* text-transform: capitalize; */
+}
+.healthbar_container{
+      background-color: #494746;
+      border-radius: 10px;
+      width: 300px;
+      margin-right: 20px;
+}
+.HP_content{
+      display: flex;
+      flex-direction: row;
+}
+.HP{
+      color: #F4B006;
+      padding-right: 5px;
+      padding-left: 15px;
+}
+.HP_bar{
+      background: rgb(21,194,26);
+      background: linear-gradient(360deg, rgba(21,194,26,1) 0%, rgba(21,194,26,1) 66%, rgba(6,142,6,1) 67%, rgba(6,142,6,1) 100%);
+      width: 100%;
+      border-radius: 0 10px 10px 0;
+      border:3px solid #494746;
+}
+.lvl_poke {
+      display: flex;
+      justify-content: flex-start;
+  }
+  .level{
+      color: white;
+      text-shadow: 5px 2px 0px rgba(0,0,0,0.67);
+  }

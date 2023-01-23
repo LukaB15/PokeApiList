@@ -1,0 +1,34 @@
+@font-face {
+      font-family: pokefont;
+      src: url(../font/Pokemon\ Classic.ttf);
+    }
+
+@font-face {
+      font-family: pokefont2;
+      src: url(../font/evollite.ttf);
+    }
+
+.copyright{
+      color:white;
+      font-family: pokefont;
+      padding-top: 50px;
+      margin: 0;
+}
+.footer_container{
+      background-color: #EF3E33;
+      width: 100%;
+      height: 230px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 100px;
+}
+.footer_ball{
+      background-color: white;
+      width: 400px;
+      height: 200px;
+      border-bottom-left-radius: 200px;
+      border-bottom-right-radius: 200px;
+      /* border: 10px solid red; */
+      border-bottom: 0;
+}
